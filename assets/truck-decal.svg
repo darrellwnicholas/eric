@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="1200" viewBox="0 0 3600 1200">
+  <rect width="3600" height="1200" fill="#ffffff"/>
+  <rect x="0" y="0" width="3600" height="1200" fill="none" stroke="#111111" stroke-width="8" stroke-dasharray="24 14"/>
+  <rect x="48" y="48" width="3504" height="1104" rx="42" fill="#111111"/>
+  <rect x="48" y="870" width="3504" height="282" fill="#FFD400"/>
+  <g transform="translate(120,178)">
+    <rect x="0" y="0" rx="34" ry="34" width="360" height="360" fill="#FFD400"/>
+    <path d="M76 220 L180 78 L286 220" fill="none" stroke="#111111" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="104" y="212" width="152" height="96" rx="12" fill="none" stroke="#ffffff" stroke-width="14"/>
+    <path d="M130 290 L172 248 L188 264 L162 290 L188 316 L172 332 L130 290 Z" fill="#ffffff"/>
+    <path d="M206 244 L176 290 L208 290 L186 340 L252 268 L218 268 L238 230 Z" fill="#111111"/>
+  </g>
+  <g transform="translate(540,196)">
+    <text x="0" y="0" font-size="250" font-family="Arial Black, Arial, sans-serif" fill="#ffffff" letter-spacing="4">FUSE &amp; FIX</text>
+    <text x="10" y="122" font-size="90" font-family="Arial, Helvetica, sans-serif" fill="#FFD400" letter-spacing="10">HOME SERVICES</text>
+    <!-- Wrap the service tagline into two shorter lines and reduce font size for better fit -->
+    <text x="10" y="282" font-size="54" font-family="Arial, Helvetica, sans-serif" fill="#ffffff">Electrical Repair • Lighting</text>
+    <text x="10" y="352" font-size="52" font-family="Arial, Helvetica, sans-serif" fill="#ffffff">Outlets, Switches &amp; Small Fixes</text>
+  </g>
+  <g transform="translate(1760,920)">
+    <text x="0" y="0" font-size="168" font-family="Arial Black, Arial, sans-serif" fill="#111111">CALL / TEXT 870-560-8903</text>
+  </g>
+  <g transform="translate(2060,150)">
+    <rect x="0" y="0" width="1380" height="520" rx="28" fill="#ffffff" opacity="0.08"/>
+    <text x="70" y="130" font-size="72" font-family="Arial, Helvetica, sans-serif" fill="#ffffff">Serving Paragould, Jonesboro, Greene County</text>
+    <text x="70" y="240" font-size="72" font-family="Arial, Helvetica, sans-serif" fill="#ffffff">and surrounding Northeast Arkansas communities</text>
+    <text x="70" y="410" font-size="118" font-family="Arial Black, Arial, sans-serif" fill="#FFD400">Fast. Clean. Done Right.</text>
+  </g>
+</svg>

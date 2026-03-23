@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="600" viewBox="0 0 1050 600">
+  <rect width="1050" height="600" rx="28" fill="#ffffff"/>
+  <rect x="0" y="0" width="1050" height="80" fill="#111111"/>
+  <text x="60" y="170" font-size="64" font-family="Arial Black, Arial, sans-serif" fill="#111111">What We Handle</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="42" fill="#333333">
+    <text x="84" y="270">• Troubleshooting and repairs</text>
+    <text x="84" y="332">• Lights, fans, outlets, and switches</text>
+    <text x="84" y="394">• Small home repair punch-list work</text>
+    <text x="84" y="456">• Serving Paragould and surrounding areas</text>
+  </g>
+  <rect x="60" y="500" width="930" height="48" rx="24" fill="#FFD400"/>
+  <text x="112" y="535" font-size="30" font-family="Arial Black, Arial, sans-serif" fill="#111111">Ask about same-day availability for smaller jobs.</text>
+</svg>
