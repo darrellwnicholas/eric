@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!--
+    Simplified square logo for the site navigation. The original logo
+    included long text and tagline lines which become illegible when
+    scaled down for the header. This version contains just the graphic
+    mark: a stylised house outline with a plug and lightning bolt. The
+    background is the brand yellow with a rounded corner to mirror the
+    other assets. All shapes are vector so the logo scales cleanly.
+  -->
+  <!-- Base rounded square in the brand colour -->
+  <rect width="512" height="512" rx="80" fill="#FFD400"/>
+  <!-- Roof outline -->
+  <path d="M128 352 L256 160 L384 352" fill="none" stroke="#111111" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Plug outline -->
+  <rect x="176" y="320" width="160" height="100" rx="12" fill="none" stroke="#ffffff" stroke-width="24"/>
+  <!-- Arrow part of the plug (white arrow) -->
+  <path d="M208 350 L248 310 L272 330 L240 350 L272 370 L248 390 L208 350 Z" fill="#ffffff"/>
+  <!-- Bolt overlay on the plug (black bolt) -->
+  <path d="M304 320 L264 350 L304 350 L276 394 L352 330 L320 330 L342 290 Z" fill="#111111"/>
+</svg>

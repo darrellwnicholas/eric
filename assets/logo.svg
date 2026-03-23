@@ -1,27 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1200" viewBox="0 0 2400 1200">
-  <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.18"/>
-    </filter>
-  </defs>
-  <!-- Set a dark background instead of transparent so the logo works on light backgrounds -->
-  <rect width="2400" height="1200" fill="#111111"/>
-  <g transform="translate(160,160)" filter="url(#shadow)">
-    <rect x="0" y="0" rx="76" ry="76" width="520" height="520" fill="#111111"/>
-    <path d="M102 326 L260 106 L420 326" fill="none" stroke="#FFD400" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="148" y="312" width="224" height="142" rx="18" fill="none" stroke="#FFFFFF" stroke-width="24"/>
-    <path d="M216 414 C246 374, 302 352, 352 356" fill="none" stroke="#FFD400" stroke-width="28" stroke-linecap="round"/>
-    <path d="M178 430 L236 370 L258 392 L220 430 L258 468 L236 490 L178 430 Z" fill="#FFFFFF"/>
-    <path d="M318 366 L274 430 L318 430 L286 498 L382 398 L330 398 L360 346 Z" fill="#FFD400"/>
-  </g>
-  <g transform="translate(760,255)">
-    <!-- Use a light color for the primary logotype so it reads on dark backgrounds -->
-    <text x="0" y="0" font-size="238" font-family="Arial Black, Arial, sans-serif" letter-spacing="4" fill="#ffffff">FUSE &amp; FIX</text>
-    <rect x="2" y="52" width="1060" height="16" rx="8" fill="#FFD400"/>
-    <!-- Brand bar text uses the yellow accent colour -->
-    <text x="6" y="190" font-size="96" font-family="Arial, Helvetica, sans-serif" letter-spacing="10" fill="#FFD400">HOME SERVICES</text>
-    <!-- Wrap the service tagline into two shorter lines and reduce the font size for better fit -->
-    <text x="6" y="318" font-size="36" font-family="Arial, Helvetica, sans-serif" fill="#ffffff">Electrical Repair • Lighting</text>
-    <text x="6" y="378" font-size="36" font-family="Arial, Helvetica, sans-serif" fill="#ffffff">Outlets, Switches &amp; Small Fixes</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!--
+    Simplified logo for header use. This replaces the prior complex
+    full-logo SVG, which contained long text and tagline lines that
+    became illegible when scaled down in the navigation bar. The
+    background uses the brand yellow colour, and the symbol is
+    identical to the one in logo-icon.svg. Text is omitted because the
+    adjacent span in the HTML provides the business name.
+  -->
+  <rect width="512" height="512" rx="80" fill="#FFD400"/>
+  <path d="M128 352 L256 160 L384 352" fill="none" stroke="#111111" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="176" y="320" width="160" height="100" rx="12" fill="none" stroke="#ffffff" stroke-width="24"/>
+  <path d="M208 350 L248 310 L272 330 L240 350 L272 370 L248 390 L208 350 Z" fill="#ffffff"/>
+  <path d="M304 320 L264 350 L304 350 L276 394 L352 330 L320 330 L342 290 Z" fill="#111111"/>
 </svg>
