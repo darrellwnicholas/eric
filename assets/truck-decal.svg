@@ -1,45 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1000" viewBox="0 0 2400 1000">
   <!--
-    Truck decal graphic redesigned for clarity and responsiveness. The
-    previous design crammed a large amount of text into a very wide
-    canvas which resulted in elements bleeding into the borders or
-    becoming invisible when scaled down. This new layout keeps the
-    important content grouped and centred with ample padding. It also
-    avoids transparent text on transparent backgrounds by using
-    contrasting colours. When exported to PNG the aspect ratio
-    conveniently scales down for mobile, tablet and desktop without
-    clipping the content.
+    Sparky truck decal
+
+    This graphic matches the revised brand identity for Sparky Home & Electric Repair.
+    It uses the same colours and icon as the main logo on the website and business
+    card. The design is kept light and clean to sit comfortably on the new light
+    green website theme. When converted to PNG the 12:5 aspect ratio scales
+    proportionally for desktop, tablet and mobile breakpoints without clipping.
+
+    Key elements:
+    - White main panel with rounded corners to echo the business card
+    - Brand icon (house + plug + lightning) pulled from the full logo
+    - Bold brand name and descriptor in dark green and yellow
+    - Service taglines describing the mix of electrical and home repair work
+    - Dark green call‑to‑action bar at the bottom with a clear phone number
+
+    If you modify the colours here, update CSS variables in styles.css to match.
   -->
 
-  <!-- Main panel with rounded corners and brand background colour -->
-  <rect x="0" y="0" width="2400" height="1000" rx="50" fill="#111111"/>
+  <!-- Main rounded panel; white fill on transparent canvas -->
+  <rect x="0" y="0" width="2400" height="1000" rx="50" fill="#ffffff" />
 
-  <!-- Left side: brand icon and copy -->
-  <g transform="translate(120,150)">
-    <!-- Embedded logo icon (copied from logo-icon.svg) -->
-    <rect width="360" height="360" rx="60" fill="#FFD400"/>
-    <path d="M90 270 L180 135 L270 270" fill="none" stroke="#111111" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="124" y="250" width="112" height="68" rx="10" fill="none" stroke="#ffffff" stroke-width="20"/>
-    <path d="M150 276 L184 240 L204 258 L172 276 L204 294 L184 312 L150 276 Z" fill="#ffffff"/>
-    <path d="M236 242 L204 276 L236 276 L214 314 L282 258 L254 258 L274 224 Z" fill="#111111"/>
-
-    <!-- Brand name and tagline lines to the right of the icon -->
-    <g transform="translate(440,40)">
-      <text x="0" y="0" font-size="200" font-family="Arial Black, Arial, sans-serif" letter-spacing="4" fill="#ffffff">FUSE &amp; FIX</text>
-      <text x="4" y="100" font-size="80" font-family="Arial, Helvetica, sans-serif" letter-spacing="8" fill="#FFD400">HOME SERVICES</text>
-      <!-- Tagline lines. Font sizes are relatively large to maintain readability when scaled down. -->
-      <text x="4" y="200" font-size="60" font-family="Arial, Helvetica, sans-serif" fill="#ffffff">Electrical Repair • Lighting</text>
-      <text x="4" y="270" font-size="60" font-family="Arial, Helvetica, sans-serif" fill="#ffffff">Outlets, Switches &amp; Small Fixes</text>
-    </g>
+  <!-- Left column: simplified brand mark.  To avoid issues with external
+       image references during SVG to PNG conversion, the original logo mark
+       (house, plug and bolt) is redrawn here using basic vector shapes.  The
+       shapes approximate the house outline and lightning bolt in the Sparky
+       logo while staying within the brand palette.  This approach ensures
+       the decal renders consistently across tools without missing images. -->
+  <g transform="translate(80,270) scale(2)">
+    <!-- House roof -->
+    <polygon points="0,80 80,0 160,80" fill="#006d2c" />
+    <!-- House body -->
+    <rect x="40" y="80" width="80" height="80" fill="#006d2c" />
+    <!-- Plug prongs -->
+    <rect x="52" y="60" width="12" height="30" fill="#006d2c" />
+    <rect x="96" y="60" width="12" height="30" fill="#006d2c" />
+    <!-- Simplified lightning bolt -->
+    <polygon points="110,80 90,120 130,120 100,160 150,100 120,100 140,60" fill="#FFD400" />
   </g>
 
-  <!-- Removed the right-hand callouts to prevent text overlap when the
-       graphic is scaled down. The service area and value props are
-       communicated via separate elements in the HTML. This keeps the
-       decal clean and ensures that the logo and tagline remain legible
-       across breakpoints. -->
+  <!-- Right column: Brand name and taglines.  Positioned relative to the
+       left margin and centred vertically within the main panel.  Text
+       sizes decrease gradually to establish hierarchy. -->
+  <g transform="translate(680,260)">
+    <!-- Sparky brand name -->
+    <text x="0" y="0" font-size="200" font-family="Arial Black, Arial, sans-serif" fill="#006d2c" letter-spacing="4">SPARKY</text>
+    <!-- Descriptor: Home & Electric Repair -->
+    <text x="4" y="90" font-size="80" font-family="Arial, Helvetica, sans-serif" fill="#e2a419" letter-spacing="6">HOME &amp; ELECTRIC REPAIR</text>
+    <!-- Tagline lines -->
+    <text x="4" y="170" font-size="60" font-family="Arial, Helvetica, sans-serif" fill="#1a1f24">Electrical &amp; Home Repairs</text>
+    <text x="4" y="240" font-size="60" font-family="Arial, Helvetica, sans-serif" fill="#1a1f24">Lighting, Outlets &amp; Small Fixes</text>
+  </g>
 
-  <!-- Bottom call-to-action bar -->
-  <rect x="0" y="860" width="2400" height="140" fill="#FFD400"/>
-  <text x="1200" y="955" text-anchor="middle" font-size="130" font-family="Arial Black, Arial, sans-serif" fill="#111111">CALL / TEXT 870-560-8903</text>
+  <!-- Bottom call‑to‑action bar.  Dark green with white text for high
+       contrast.  The phone number is centred horizontally. -->
+  <rect x="0" y="860" width="2400" height="140" fill="#006d2c" />
+  <text x="1200" y="950" text-anchor="middle" font-size="130" font-family="Arial Black, Arial, sans-serif" fill="#ffffff">CALL / TEXT 870‑560‑8903</text>
 </svg>
